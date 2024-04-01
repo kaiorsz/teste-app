@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+# Projeto Teste
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de frontend para gerenciamento de produtos e vendas de produtos.
 
-Currently, two official plugins are available:
+## Pré-requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
-## Expanding the ESLint configuration
+- Node.js (v14.0 ou superior)
+- npm (v7.0 ou superior) ou yarn (v1.0 ou superior)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instalação
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone o repositório:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+2. Navegue até o diretório do projeto:
+
+   ```
+   cd seu-projeto
+   ```
+
+3. Instale as dependências:
+
+   ```
+   npm install
+   # ou
+   yarn
+   ```
+
+## Como Rodar
+
+Para rodar o projeto localmente, execute o seguinte comando:
+
+```
+npm start
+# ou
+yarn start
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Isso iniciará o servidor de desenvolvimento. Abra [http://localhost:5173/produtos](http://localhost:5173/produtos) no seu navegador para visualizar o projeto.
+
+## Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
